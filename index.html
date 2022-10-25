@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauro Chalmes</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfó<span>lio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Início</a></li>
+                <li><a href="#about" class="menu-btn">Sobre</a></li>
+                <li><a href="#projects" class="menu-btn">Projetos</a></li>
+                <li><a href="#contact" class="menu-btn">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home início -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"><p>Olá, meu nome é</p></div>
+                <div class="text-2"><p>Mauro Chalmes</p></div>
+                <div class="text-3"><p>eu sou <span class="typing"></span></p></div>
+                <a href="#contact">Contratar-me</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sessão sobre -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre mim</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="assets/maurochalmes.png" alt="Foto de Mauro Chalmes">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou Mauro e sou <span class="typing-2"></span></div>
+                    <p>Tenho 16 anos, sou do Rio Grande do Sul. Gosto muito de aprender sobre coisas novas. Comecei a estudar programação no início de 2022. Fiz um curso presencial na <span><a href="https://calabria.com.br/" target="_blank" rel="nofollow">Rede Calábria</a></span> e por motivos pessoais acabei tendo que sair no meio do curso. Voltei a estudar no meio do ano, por conta própria dessa vez e estou em busca de uma oportunidade de desenvolvimento e crescimento pessoal e profissional.</p>
+                    <a href="assets/cv.pdf" target="_blank" class="cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projetos inicio -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Meus Projetos</h2>
+            <div class="proj-content">
+                <div class="card">
+                    <div class="box">
+                        <ion-icon class="icon" name="code"></ion-icon>
+                        <div class="text">Em desenvolvimento</div>
+                        <p>Atualmente em processo de criação.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <ion-icon class="icon" name="hammer"></ion-icon>
+                        <div class="text">Em breve</div>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <ion-icon class="icon" name="hammer"></ion-icon>
+                        <div class="text">Em breve</div>
+                        <p>...</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato inicio -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Fale comigo</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Entre em contato</div>
+                    <p>
+                        Preencha os campos ao lado e pressione "Enviar mensagem"
+                        <br>
+                        Informações de contato:
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon class="icon" name="person"></ion-icon>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Mauro Chalmes</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon class="icon" name="location"></ion-icon>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Porto Alegre, Rio Grande do Sul - Brasil</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon class="icon" name="mail"></ion-icon>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">contatomaurochalmes@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Mande uma mensagem</div>
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Assunto" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Mensagem..." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer incio -->
+    <footer></footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
