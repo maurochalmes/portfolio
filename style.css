@@ -282,7 +282,7 @@ section .title::after{
 
 /* Contact */
 .contact .title::after{
-    content: "Entre em contato";
+    content: "Contato";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
