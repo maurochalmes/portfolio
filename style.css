@@ -260,6 +260,9 @@ section .title::after{
 .projects .proj-content .card:hover{
     background: #8C4C27;
 }
+.projects .proj-content .card a:visited {
+    color: #fff;
+}
 .projects .proj-content .card .box{
     transition: all 0.3s ease;
 }
